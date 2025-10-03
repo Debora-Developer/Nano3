@@ -4,7 +4,7 @@
 //
 //  Created by Débora Costa on 02/10/25.
 //
-import SwiftUI
+import Foundation
 
 struct TagModel: Identifiable {
     var id: UUID

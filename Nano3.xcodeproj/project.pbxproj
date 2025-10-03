@@ -16,6 +16,11 @@
 			path = Nano3;
 			sourceTree = "<group>";
 		};
+		1109DCFB2E8EB925003B6E0E /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +39,7 @@
 			children = (
 				1109DCAF2E8C0186003B6E0E /* Nano3 */,
 				1109DCAE2E8C0186003B6E0E /* Products */,
+				1109DCFB2E8EB925003B6E0E /* Views */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +68,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				1109DCAF2E8C0186003B6E0E /* Nano3 */,
+				1109DCFB2E8EB925003B6E0E /* Views */,
 			);
 			name = Nano3;
 			packageProductDependencies = (

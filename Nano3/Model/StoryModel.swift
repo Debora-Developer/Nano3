@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct HistoryModel: Identifiable {
+struct StoryModel: Identifiable {
     
     var id = UUID()
     var title: String = ""
