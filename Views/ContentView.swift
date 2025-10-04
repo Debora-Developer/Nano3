@@ -9,15 +9,40 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-            Text("Hello, GitHub!")
-            
+        @State var cardList: [StoryModel] = []
+        // Uma lista de histórias
+        
+        NavigationStack{
+            ScrollView(.vertical){
+                VStack {
+                    Text("Histórias")
+                        .font(Font.largeTitle.bold())
+                        .fontWidth(.expanded)
+                        .foregroundStyle(.white)
+                    
+                    ForEach(cardList) { StoryModel in
+                        Text(StoryModel.title)
+                            .font(.headline)
+                    }
+                }
+                .toolbar {
+                    ToolbarItem(placement: .primaryAction) {
+                        Button {
+                            // ação do botão
+                        } label: {
+                            Image(systemName: "ellipsis")
+                        }
+                    }
+                }
+
+            }
+            .background {
+                Image("background2")
+                    .resizable()
+                    .scaledToFill()
+                    .ignoresSafeArea()
+            }
         }
-        .padding()
     }
 }
 
