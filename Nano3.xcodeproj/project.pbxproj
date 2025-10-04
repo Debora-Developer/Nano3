@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		117363D82E907AA500273C62 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117363D62E907AA100273C62 /* CardView.swift */; };
+		1173640C2E90A78600273C62 /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1173640B2E90A78200273C62 /* TagView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		1109DCAD2E8C0186003B6E0E /* Nano3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nano3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		117363D62E907AA100273C62 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		1173640B2E90A78200273C62 /* TagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -40,6 +47,7 @@
 				1109DCAF2E8C0186003B6E0E /* Nano3 */,
 				1109DCAE2E8C0186003B6E0E /* Products */,
 				1109DCFB2E8EB925003B6E0E /* Views */,
+				1173640A2E90A73D00273C62 /* Components */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +57,15 @@
 				1109DCAD2E8C0186003B6E0E /* Nano3.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		1173640A2E90A73D00273C62 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				117363D62E907AA100273C62 /* CardView.swift */,
+				1173640B2E90A78200273C62 /* TagView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				117363D82E907AA500273C62 /* CardView.swift in Sources */,
+				1173640C2E90A78600273C62 /* TagView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
