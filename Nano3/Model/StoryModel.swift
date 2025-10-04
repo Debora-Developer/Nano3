@@ -11,6 +11,6 @@ struct StoryModel: Identifiable {
     
     var id = UUID()
     var title: String = ""
-    var text: String = ""
+    var description: String = ""
     var tags: [TagModel] = [] //lista da TagModel
 }
